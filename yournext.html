@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dokdo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Adventure.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="message">
+        <p class="message-p">feeling spontanious?! save on <u>Trips Departing soon</u></p>
+    </div>
+    <div class="navbar">
+        <div class="navbar1">
+            <div class="title">
+                Adventurage
+            </div>
+            <div class="nav-links">
+                <a href="asia.html" class="navlink-inactive">Tour</a>
+                <a href="termsandconditions.html" class="navlink-inactive">About Us</a>
+                <a href="contactus.html" class="navlink-inactive">Contact Us</a>
+            </div>
+        </div>
+        <div class="user">
+            <img src="Images/user icon.png" class="user-img">
+        </div>
+    </div>
+    <div class="yournextheaader-content">
+        <div class="yournext-header">
+            <h1 class="yournext-h1">Your Next Adventure Awaits!</h1>
+        </div>
+        <div class="yournext-content">
+            <p class="yournext-content-p">Discover breathtaking locations, distinct experiences, and memorable travels with Adventurage</p>
+            <p class="yournext-content-discovermore">DISCOVER MORE 
+                <i class="fas fa-paper-plane"></i>
+            </p>
+        </div>
+    </div>
+    <div class="yournext-header-image">
+        <img src="Images/header image.png" class="yournext-img">
+    </div>
+    <div class="yournext-location-cin-cou-pepole">
+        <div class="yournext-location">
+            <div class="yournext-image-des">
+                <img src="Images/location icon.png" class="yournext-location-img">
+                <p class="yournext-img-p">Location</p>
+            </div>
+            <p class="yournext-location-p">Glumargh Valley, Kashmir</p>
+        </div>
+        <div class="yournext-location">
+            <div class="yournext-image-des">
+                <img src="Images/check in icon.png" class="yournext-location-img">
+                <p class="yournext-img-p">Check In</p>
+            </div>
+            <p class="yournext-location-p">27, June 2025</p>
+        </div>
+        <div class="yournext-location">
+            <div class="yournext-image-des">
+                <img src="Images/check out icon.png" class="yournext-location-img">
+                <p class="yournext-img-p">Check Out</p>
+            </div>
+            <p class="yournext-location-p">30, June 2025</p>
+        </div>
+        <div class="yournext-location">
+            <div class="yournext-image-des">
+                <img src="Images/people icon.png" class="yournext-location-img">
+                <p class="yournext-img-p">People</p>
+            </div>
+            <p class="yournext-location-p">2 Adults, 2 Childern</p>
+        </div>
+        <div class="yournext-location">
+            <div class="search-icon">
+                <img src="Images/search icon.png" class="yournext-search-img">
+            </div>
+        </div>
+    </div>
+    <div class="tab-nav">
+    <button class="tab-button active" onclick="showTab('destination', this)">Destination</button>
+    <button class="tab-button" onclick="showTab('activities', this)">Activities</button>
+    <button class="tab-button" onclick="showTab('collections', this)">Collections</button>
+  </div>
+
+  <div class="tab-content">
+
+    <!-- Destination Tab -->
+    <div id="destination" class="tab-pane active">
+      <div class="card-row">
+        <a href="europe.html" class="destination-home-link"><img src="Images/europe home.png" alt="Europe" class="">
+            <p class="home-p">Europe</p>
+        </a>
+        <a href="asia.html" class="destination-home-link"><img src="Images/asia home.png" alt="Asia">
+             <p class="home-p">Asia</p>
+        </a>
+        <a href="africa.html" class="destination-home-link"><img src="Images/africa home.png" alt="Africa">
+             <p class="home-p">Africa</p>
+        </a>
+        <a href="europe.html" class="destination-home-link"><img src="Images/south america home.png" alt="South America">
+             <p class="home-p">South America</p>
+        </a>
+        <a href="europe.html" class="destination-home-link"><img src="Images/north america home.png" alt="North America">
+             <p class="home-p">North America</p>
+        </a>
+        <a href="africa.html" class="destination-home-link"><img src="Images/oceania home.png" alt="Oceania">
+             <p class="home-p">Oceania</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Activities Tab -->
+    <div id="activities" class="tab-pane">
+      <div class="card-row">
+        <a href="hiking.html"><img src="Images/hiking.png" alt="Hiking"></a>
+        <a href="cycling.html"><img src="Images/cycling.png" alt="Cycling"></a>
+        <a href="rafting.html"><img src="Images/rafting.png" alt="Rafting"></a>
+        <a href="snorkeling.html"><img src="Images/snorkling.png" alt="Snorkeling"></a>
+        <a href="swimming.html"><img src="Images/wild-swimming.png" alt="Wild Swimming"></a>
+        <a href="northern-lights.html"><img src="Images/Northern-lights.png" alt="Northern Lights"></a>
+      </div>
+    </div>
+
+    <!-- Collections Tab -->
+    <div id="collections" class="tab-pane">
+      <div class="card-row">
+        <a href="new-adventure.html"><img src="Images/new-adventure.png" alt="New Adventure"></a>
+        <a href="winter-sun.html"><img src="Images/winter-sun.png" alt="Winter Sun"></a>
+        <a href="desert-dunes.html"><img src="Images/desert-and-dunes.png" alt="Desert & Dunes"></a>
+        <a href="foodie.html"><img src="Images/foodie-adventure.png" alt="Foodie Adventure"></a>
+        <a href="jungle.html"><img src="Images/jungle-adventure.png" alt="Jungle Adventure"></a>
+        <a href="islands.html"><img src="Images/island-adventure.png" alt="Islands Adventure"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function showTab(tabId, element) {
+  document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
+  element.classList.add("active");
+
+  document.querySelectorAll(".tab-pane").forEach(pane => pane.classList.remove("active"));
+  document.getElementById(tabId).classList.add("active");
+}
+  </script>
+<div class="experience-tour-package">
+    <h1 class="experience-tour-package-h1">Experience Our One-of-a-kind tour package</h1>
+    <p class="experience-tour-package-p">Find your dream escape with our tailored tour packages-be it adventure, relaxation, or cultural experiences, everything you need is right here</p>
+</div>
+<div class="experience-tour-package">
+    <div class="experience-tour-package-cards">
+        <a href="index2.html" class="tour-card-link">
+            <div class="experience-tour-package-card1">
+            <img src="Images/japan.png" class="experience-tour-package-card1-img">
+            <div class="experience-tour-package-card1-img-des">
+                <div class="experience-card1-des-header-rating">
+                    <h3 class="experience-tour-package-card1-des-h3">Fuji Mount</h3>
+                    <div class="experience-tour-package-card1-des-rating">
+                        <img src="Images/rating star icon.png" class="experience-rating-start-img">4.5
+                    </div>
+                </div>
+                <p class="experience-tour-package-rate-p">&#8377 25,000</p>
+                <div class="tick-circle-des">
+                    <div class="tick-circle-des-img-p">
+                        <img src="Images/tick circle icon.png" class="tick-icon-img">
+                        <p class="tick-circle-des-p">Including Accomodation</p>
+                    </div>
+                    <div class="tick-circle-des-img-p">
+                        <img src="Images/tick circle icon.png" class="tick-icon-img">
+                        <p class="tick-circle-des-p">Free Professional Guide Tour</p>
+                    </div>
+                    <div class="tick-circle-des-img-p">
+                        <img src="Images/tick circle icon.png" class="tick-icon-img">
+                        <p class="tick-circle-des-p">3 days 2 Nights</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+        <a href="index3.html" class="tour-card-link">
+            <div class="experience-tour-package-card2">
+            <img src="Images/kilimanjaro.png" class="experience-tour-package-card1-img2">
+            <div class="experience-tour-package-card2-img-des">
+                <div class="experience-card1-des-header-rating">
+                    <h3 class="experience-tour-package-card1-des-h3">kilimanjaro</h3>
+                    <div class="experience-tour-package-card2-des-rating">
+                        <img src="Images/rating star icon.png" class="experience-rating-start-img">4.7
+                    </div>
+                </div>
+                <p class="experience-tour-package-rate-p">&#8377 34,500</p>
+            </div>
+        </div>
+        </a>
+        <a href="index.html" class="tour-card-link">
+            <div class="experience-tour-package-card2">
+            <img src="Images/costa-rica.png" class="experience-tour-package-card1-img2">
+            <div class="experience-tour-package-card2-img-des">
+                <div class="experience-card2-des-header-rating">
+                    <h3 class="experience-tour-package-card3-des-h3">Costa Rica</h3>
+                    <div class="experience-tour-package-card3-des-rating">
+                        <img src="Images/rating star icon.png" class="experience-rating-start-img">4.
+                    </div>
+                </div>
+                <p class="experience-tour-package-rate-p">&#8377 60,400</p>
+            </div>
+        </div>
+        </a>
+        <a href="asia.html" class="tour-card-link">
+            <div class="experience-tour-package-card3">
+            <img src="Images/view-all.png" class="experience-tour-package-viewall-img">
+            <div class="experience-tour-package-card1-img-des">
+                <div class="experience-card1-des-header-rating">
+                    <h2 class="experience-tour-package-card3-des-h2">View All</h2>
+                </div>
+            </div>
+            <div class="viewall-location-arrow">
+                 <i class="fas fa-paper-plane"></i>
+            </div>
+        </div>
+        </a>
+    </div>
+</div>
+    <div class="find-right-level">
+        <h1 class="find-right-level-h1">Find the Right Level for You!</h1>
+        <p class="find-right-level-p">Our adventures are tailored to meet a variety of fitness levels so you can pick the perfect match</p>
+    </div>
+    <div class="find-right-level-cards">
+        <div class="find-level-card1">
+            <img src="Images/easy-ss.png" class="find-level-card1-img">
+            <img src="Images/modurate-ss.png" class="find-level-card1-img">
+            <img src="Images/challenging-ss.png" class="find-level-card1-img">
+            <img src="Images/tough-ss.png" class="find-level-card1-img">
+        </div>
+    </div>
+    <div class="tour-guide">
+        <h1 class="tour-guide-h1">
+            Professional Tour Guide
+        </h1>
+    </div>
+  <div class="tour-guide-section">
+    <!-- Card 1 -->
+    <div class="tour-guide-card">
+      <img src="Images/tour guide 1.png" alt="Yedidyah" class="guide-img">
+      <h3 class="guide-name">Yedidyah Cherub</h3>
+      <p class="guide-role">Adventure Tour Guide</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="tour-guide-card">
+      <img src="Images/tour guide 2.png" alt="Selah" class="guide-img">
+      <h3 class="guide-name">Selah Seraphina</h3>
+      <p class="guide-role">Mountain Tour Guide</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="tour-guide-card">
+      <img src="Images/tour guide 3.png" alt="Niko" class="guide-img">
+      <h3 class="guide-name">Niko Daves</h3>
+      <p class="guide-role">Island Tour Guide</p>
+    </div>
+
+    <!-- Guide & Offers Card -->
+    <div class="tour-guide-card guide-offer-card">
+      <div class="guide-offer-header">
+        <div class="avatar-stack">
+          <img src="Images/tour guide stack 1.png" class="avatar-img" alt="">
+          <img src="Images/tour guide stack 2.png" class="avatar-img" alt="">
+          <img src="Images/tour guide stack 3.png" class="avatar-img" alt="">
+          <img src="Images/tour guide stack 4.png" class="avatar-img" alt="">
+          <img src="Images/tour guide stack 5.png class="avatar-img" alt="">
+        </div>
+        <p class="guide-count">100+ Tour guide</p>
+        <div class="guide-offer-content">
+        <h3 class="guide-offer-title">Guide &<br>Offers</h3>
+      </div>
+      </div>
+      <div class="guide-offer-icon">
+          <i class="fas fa-location-arrow"></i>
+        </div>
+    </div>
+  </div>
+  <div class="transport-section">
+  <!-- Left Side -->
+  <div class="transport-left">
+    <h2 class="transport-heading">
+      Every Step of the Way
+      <span class="transport-icon">
+        <i class="fas fa-location-arrow"></i>
+      </span>
+    </h2>
+    <p class="transport-desc">
+      Travel with ease and comfort. From private transfers to group tours we ensure seamless transportation throughout your journey
+    </p>
+  </div>
+
+  <!-- Right Side -->
+  <div class="transport-right">
+    <h4 class="transport-label">TRANSPORT</h4>
+    <h2 class="transport-subheading">Effortless Travel</h2>
+
+    <div class="transport-mode">
+      <div class="mode-icon">
+        <img src="Images/plane icon.png">
+      </div>
+      <div>
+        <h3 class="mode-title">Plane</h3>
+        <p class="mode-desc">We provide flights with schedules according to the airport or can be customized</p>
+      </div>
+    </div>
+
+    <div class="transport-mode">
+      <div class="mode-icon">
+        <img src="Images/train icon.png">
+      </div>
+      <div>
+        <h3 class="mode-title">Train</h3>
+        <p class="mode-desc">We provide trains with schedules according to the station or can be customized</p>
+      </div>
+    </div>
+
+    <div class="transport-mode">
+      <div class="mode-icon">
+        <img src="Images/car icon.png">
+      </div>
+      <div>
+        <h3 class="mode-title">Car</h3>
+        <p class="mode-desc">We provide cars with schedules according to customization</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="features-row">
+  <div class="feature-box">
+    <img src="Images/bottom icon 1.png" class="feature-icon" alt="Explore Icon">
+    <p class="feature-text">Explore place you couldn’t yourself</p>
+  </div>
+
+  <div class="feature-box">
+    <img src="Images/bottom icon 2.png" class="feature-icon" alt="Hiking Icon">
+    <p class="feature-text">Go with the outdoor specialists</p>
+  </div>
+
+  <div class="feature-box">
+    <img src="Images/bottom icon 3.png" class="feature-icon" alt="Group Icon">
+    <p class="feature-text">Join a small like-minded group</p>
+  </div>
+
+  <div class="feature-box">
+    <img src="Images/bottom icon.png" class="feature-icon" alt="Map Icon">
+    <p class="feature-text">Hassle-free from start to finish</p>
+  </div>
+</div>
+
+
+
+
+
+<!--Footer-->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <h2 class="footer-logo">Adventurage</h2>
+      <p class="footer-tagline">–BOOK WITH CONFIDENCE–</p>
+      <p class="footer-copy">© Copyright Adventurage Ltd. Registration Number 012458697</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-column">
+        <h3>ABOUT</h3>
+        <ul>
+          <li><a href="ourstory.html">Our Story</a></li>
+          <li><a href="ourimapct.html">Our Impact</a></li>
+          <li><a href="meet-our-team.html">Meet the Team</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>CUSTOMERS</h3>
+        <ul>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="termsandconditions.html">Terms & Conditions</a></li>
+          <li><a href="termsandconditions.html">Privacy Policy</a></li>
+          <li><a href="termsandconditions.html">Agency Booking</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body></html>

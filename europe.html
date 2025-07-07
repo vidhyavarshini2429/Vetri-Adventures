@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dokdo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Adventure.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="message">
+        <p class="message-p">feeling spontanious?! save on <u>Trips Departing soon</u></p>
+    </div>
+    <div class="navbar">
+        <div class="navbar1">
+            <div class="title">
+                Adventurage
+            </div>
+            <div class="nav-links">
+                <a href="asia.html" class="navlink-inactive">Tour</a>
+                <a href="termsandconditions.html" class="navlink-inactive">About Us</a>
+                <a href="contactus.html" class="navlink-inactive">Contact Us</a>
+            </div>
+        </div>
+        <a href="loginpage.html">
+            <div class="user">
+            <img src="Images/user icon.png" class="user-img">
+        </div>
+        </a>
+    </div>
+    <div class="asia-page">
+        <div class="asia-page-left">
+            <div class="filter-section">
+                <a href="europe.html" class="filter-section-search">
+                    <input type="text" placeholder="🔍 Oceania" class="search-input">
+                </a>
+                <p class="filter-label">Active Filters:</p>
+
+                <!-- Filter Category (Activity) -->
+                <div class="filter-category">
+                    <div class="filter-header" onclick="toggleDropdown(this)">
+                        <span><img src="Images/activity filter icon.png"> ACTIVITY</span>
+                        <span class="arrow">v</span>
+                    </div>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> Hiking</label>
+                        <label><input type="checkbox"> Snorkeling</label>
+                        <label><input type="checkbox"> Cycling</label>
+                        <label><input type="checkbox"> Wild Swimming</label>
+                        <label><input type="checkbox"> Rafting</label>
+                        <label><input type="checkbox"> Northern Lights</label>
+                    </div>
+                </div>
+
+                <!-- Filter Category (Difficulty) -->
+                <div class="filter-category">
+                    <div class="filter-header" onclick="toggleDropdown(this)">
+                        <span><img src="Images/difficult icon.png"> DIFFICULT</span>
+                        <span class="arrow">v</span>
+                    </div>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> Easy</label>
+                        <label><input type="checkbox"> Moderate</label>
+                        <label><input type="checkbox"> Challenging</label>
+                        <label><input type="checkbox"> Tough</label>
+                    </div>
+                </div>
+
+                <!-- Filter Category (Destination) -->
+                <div class="filter-category">
+                    <div class="filter-header" onclick="toggleDropdown(this)">
+                        <span><img src="Images/destination filter icon.png"> DESTINATION</span>
+                        <span class="arrow">v</span>
+                    </div>
+                    <div class="filter-options">
+                        <label><input type="checkbox"> Europe</label>
+                        <label><input type="checkbox"> Asia</label>
+                        <label><input type="checkbox"> Africa</label>
+                        <label><input type="checkbox"> South America</label>
+                        <label><input type="checkbox"> North America</label>
+                        <label><input type="checkbox">Oceania</label>
+                    </div>
+                </div>
+            </div>
+            <script>
+            function toggleDropdown(header) {
+                const parent = header.parentElement;
+                parent.classList.toggle("active");
+                }
+            </script>
+        </div>
+        <div class="asia-right-page">
+            <div class="asia-right-cards">
+                <div class="asia-card1">
+                    <img src="Images/eu1.png" class="asia-card1-img">
+                    <p class="asia-card1-p1">
+                        France . Italy . Switzerland
+                    </p>
+                    <p class="asia-card1-p2">TREK THE MOUNT BU MONT</p>
+                    <div class="rating-and-rate">
+                        <div class="asia-card-rating">
+                            <img src="Images/rating star icon.png" class="asia-rating-star">
+                            <p class="asia-rating-p1">4.8</p>
+                            <p class="asia-rating-p">(32 reviews)</p>
+                        </div>
+                        <p class="asia-rate">&#8377 40,000</p>
+                    </div>
+                    <hr class="asia-hr">
+                    <div class="asia-available-date">
+                        <img src="Images/date calender icon.png" class="asia-available-date-img">
+                        <p class="asia-available-date-p">Available . Jun-Sep</p>
+                    </div>
+                </div>
+                <div class="asia-card1">
+                    <img src="Images/eu2.png" class="asia-card1-img">
+                    <p class="asia-card1-p1">
+                        Morocca . North Africa
+                    </p>
+                    <p class="asia-card1-p2">CLIMB MOUNT TOUBKAL</p>
+                    <div class="rating-and-rate">
+                        <div class="asia-card-rating">
+                            <img src="Images/rating star icon.png" class="asia-rating-star">
+                            <p class="asia-rating-p1">4.6</p>
+                            <p class="asia-rating-p">(20 reviews)</p>
+                        </div>
+                        <p class="asia-rate">&#8377 32,520</p>
+                    </div>
+                    <hr class="asia-hr">
+                    <div class="asia-available-date">
+                        <img src="Images/date calender icon.png" class="asia-available-date-img">
+                        <p class="asia-available-date-p">Available . Dec-Feb</p>
+                    </div>
+                </div>
+                <div class="asia-card1">
+                    <img src="Images/eu3.png" class="asia-card1-img">
+                    <p class="asia-card1-p1">
+                        Georgia
+                    </p>
+                    <p class="asia-card1-p2">CYCLE THE SILK ROAD</p>
+                    <div class="rating-and-rate">
+                        <div class="asia-card-rating">
+                            <img src="Images/rating star icon.png" class="asia-rating-star">
+                            <p class="asia-rating-p1">4.9</p>
+                            <p class="asia-rating-p">(15 reviews)</p>
+                        </div>
+                        <p class="asia-rate">&#8377 28,000</p>
+                    </div>
+                    <hr class="asia-hr">
+                    <div class="asia-available-date">
+                        <img src="Images/date calender icon.png" class="asia-available-date-img">
+                        <p class="asia-available-date-p">Available . Jan-Mar</p>
+                    </div>
+                </div>
+                <div class="asia-card1">
+                    <img src="Images/eu4.png" class="asia-card1-img">
+                    <p class="asia-card1-p1">
+                        Norway . Europe 
+                    </p>
+                    <p class="asia-card1-p2">ARTIC CIRCLE FAT EXPENDITURE</p>
+                    <div class="rating-and-rate">
+                        <div class="asia-card-rating">
+                            <img src="Images/rating star icon.png" class="asia-rating-star">
+                            <p class="asia-rating-p1">4.2</p>
+                            <p class="asia-rating-p">(19 reviews)</p>
+                        </div>
+                        <p class="asia-rate">&#8377 25,780</p>
+                    </div>
+                    <hr class="asia-hr">
+                    <div class="asia-available-date">
+                        <img src="Images/date calender icon.png" class="asia-available-date-img">
+                        <p class="asia-available-date-p">Available . Jun-Sep</p>
+                    </div>
+                </div>
+                <div class="asia-card1">
+                    <img src="Images/eu5.png" class="asia-card1-img">
+                    <p class="asia-card1-p1">
+                        New Zealand . Oceania 
+                    </p>
+                    <p class="asia-card1-p2">COAST TO COAST EXPENDITION</p>
+                    <div class="rating-and-rate">
+                        <div class="asia-card-rating">
+                            <img src="Images/rating star icon.png" class="asia-rating-star">
+                            <p class="asia-rating-p1">4.5</p>
+                            <p class="asia-rating-p">(13 reviews)</p>
+                        </div>
+                        <p class="asia-rate">&#8377 72,000</p>
+                    </div>
+                    <hr class="asia-hr">
+                    <div class="asia-available-date">
+                        <img src="Images/date calender icon.png" class="asia-available-date-img">
+                        <p class="asia-available-date-p">Available . Apr-Jun</p>
+                    </div>
+                </div>
+                <div class="asia-card1">
+                    <img src="Images/eu6.png" class="asia-card1-img">
+                    <p class="asia-card1-p1">
+                        Pennsylvania . US State
+                    </p>
+                    <p class="asia-card1-p2">CHASE THE AURORA IN LOFOTEN</p>
+                    <div class="rating-and-rate">
+                        <div class="asia-card-rating">
+                            <img src="Images/rating star icon.png" class="asia-rating-star">
+                            <p class="asia-rating-p1">4.6</p>
+                            <p class="asia-rating-p">(36 eviews)</p>
+                        </div>
+                        <p class="asia-rate">&#8377 48,120</p>
+                    </div>
+                    <hr class="asia-hr">
+                    <div class="asia-available-date">
+                        <img src="Images/date calender icon.png" class="asia-available-date-img">
+                        <p class="asia-available-date-p">Available . Jan-Mar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-nav">
+    <button class="tab-button active" onclick="showTab('destination', this)">Destination</button>
+    <button class="tab-button" onclick="showTab('activities', this)">Activities</button>
+    <button class="tab-button" onclick="showTab('collections', this)">Collections</button>
+  </div>
+    <div class="tab-content">
+
+    <!-- Destination Tab -->
+    <div id="destination" class="tab-pane active">
+      <div class="card-row">
+        <a href="europe.html" class="destination-home-link"><img src="Images/europe home.png" alt="Europe" class="">
+            <p class="home-p">Europe</p>
+        </a>
+        <a href="asia.html" class="destination-home-link"><img src="Images/asia home.png" alt="Asia">
+             <p class="home-p">Asia</p>
+        </a>
+        <a href="africa.html" class="destination-home-link"><img src="Images/africa home.png" alt="Africa">
+             <p class="home-p">Africa</p>
+        </a>
+        <a href="europe.html" class="destination-home-link"><img src="Images/south america home.png" alt="South America">
+             <p class="home-p">South America</p>
+        </a>
+        <a href="europe.html" class="destination-home-link"><img src="Images/north america home.png" alt="North America">
+             <p class="home-p">North America</p>
+        </a>
+        <a href="africa.html" class="destination-home-link"><img src="Images/oceania home.png" alt="Oceania">
+             <p class="home-p">Oceania</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Activities Tab -->
+    <div id="activities" class="tab-pane">
+      <div class="card-row">
+        <a href="hiking.html"><img src="Images/hiking.png" alt="Hiking"></a>
+        <a href="cycling.html"><img src="Images/cycling.png" alt="Cycling"></a>
+        <a href="rafting.html"><img src="Images/rafting.png" alt="Rafting"></a>
+        <a href="snorkeling.html"><img src="Images/snorkling.png" alt="Snorkeling"></a>
+        <a href="swimming.html"><img src="Images/wild-swimming.png" alt="Wild Swimming"></a>
+        <a href="northern-lights.html"><img src="Images/Northern-lights.png" alt="Northern Lights"></a>
+      </div>
+    </div>
+
+    <!-- Collections Tab -->
+    <div id="collections" class="tab-pane">
+      <div class="card-row">
+        <a href="new-adventure.html"><img src="Images/new-adventure.png" alt="New Adventure"></a>
+        <a href="winter-sun.html"><img src="Images/winter-sun.png" alt="Winter Sun"></a>
+        <a href="desert-dunes.html"><img src="Images/desert-and-dunes.png" alt="Desert & Dunes"></a>
+        <a href="foodie.html"><img src="Images/foodie-adventure.png" alt="Foodie Adventure"></a>
+        <a href="jungle.html"><img src="Images/jungle-adventure.png" alt="Jungle Adventure"></a>
+        <a href="islands.html"><img src="Images/island-adventure.png" alt="Islands Adventure"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function showTab(tabId, element) {
+  document.querySelectorAll(".tab-button").forEach(btn => btn.classList.remove("active"));
+  element.classList.add("active");
+
+  document.querySelectorAll(".tab-pane").forEach(pane => pane.classList.remove("active"));
+  document.getElementById(tabId).classList.add("active");
+}
+  </script>
+  <div class="features-row">
+  <div class="feature-box">
+    <img src="Images/bottom icon 1.png" class="feature-icon" alt="Explore Icon">
+    <p class="feature-text">Explore place you couldn’t yourself</p>
+  </div>
+
+  <div class="feature-box">
+    <img src="Images/bottom icon 2.png" class="feature-icon" alt="Hiking Icon">
+    <p class="feature-text">Go with the outdoor specialists</p>
+  </div>
+
+  <div class="feature-box">
+    <img src="Images/bottom icon 3.png" class="feature-icon" alt="Group Icon">
+    <p class="feature-text">Join a small like-minded group</p>
+  </div>
+
+  <div class="feature-box">
+    <img src="Images/bottom icon.png" class="feature-icon" alt="Map Icon">
+    <p class="feature-text">Hassle-free from start to finish</p>
+  </div>
+</div>
+
+
+
+
+
+<!--Footer-->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <h2 class="footer-logo">Adventurage</h2>
+      <p class="footer-tagline">–BOOK WITH CONFIDENCE–</p>
+      <p class="footer-copy">© Copyright Adventurage Ltd. Registration Number 012458697</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-column">
+        <h3>ABOUT</h3>
+        <ul>
+          <li><a href="ourstory.html">Our Story</a></li>
+          <li><a href="ourimapct.html">Our Impact</a></li>
+          <li><a href="meet-our-team.html">Meet the Team</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>CUSTOMERS</h3>
+        <ul>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="termsandconditions.html">Terms & Conditions</a></li>
+          <li><a href="termsandconditions.html">Privacy Policy</a></li>
+          <li><a href="termsandconditions.html">Agency Booking</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body></html>
