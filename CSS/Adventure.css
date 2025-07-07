@@ -262,7 +262,7 @@ a{
     }
 }
 .hut-trukking{
-    background-image: url("..Images/des\ 3.png");
+    background-image: url("../Images/des\ 3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -272,7 +272,7 @@ a{
     border-radius: 20px;
 }
 .hut-trukking2{
-    background-image: url(/Images/des\ 1.png);
+    background-image: url("../Images/des\ 1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -282,7 +282,7 @@ a{
     border-radius: 20px;
 }
 .hut-trukking3{
-    background-image: url(/Images/des\ 2.png);
+    background-image: url("../Images/des\ 2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2149,7 +2149,7 @@ a{
   }
 }
 .footer {
-  background-image: url(/Images/footer\ image.png); 
+  background-image: url("../Images/footer\ image.png"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: fit;
